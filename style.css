@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    background-color: rgb(82,82,252);
+    text-align: center;
+}
+
+.container h1 {
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.main-content {
+    background-color: #252744;
+    display: flex;
+    text-align: start;
+    padding: 16px 16px 10px 16px;
+}
+
+.leftBox, .rightBox {
+    flex-basis: 50%;
+    padding: 10px;
+}
+
+.leftBox label {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+label i {
+    padding-right: 5px;
+}
+
+textarea {
+    width: 100%;
+    height: 160px;
+    background-color: #1f1f1f;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.rightBox label {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.rightBox iframe {
+    height: 94%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 1rem;
+    color: black;
+}
+
+.leftBox textarea::-webkit-scrollbar {
+    width: 4px;
+}
+
+.leftBox textarea::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 5px;
+}
